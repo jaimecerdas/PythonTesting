@@ -1,0 +1,7 @@
+import imageio
+filenames = ["images/a.png","images/b.png"]
+images = []
+for filenames in filenames:
+    images.append(imageio.imread(filename))
+imageio.misave('newfile.gif',images,'GIF',duration=2)
+
